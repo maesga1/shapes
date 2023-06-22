@@ -1,0 +1,68 @@
+.shapes {
+  height: 4em;
+}
+
+.container {
+  height: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  height: 2em;
+  display: grid;
+  justify-content: center;
+  padding: 2em;
+}
+
+.tri { 
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid yellow;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-self: center;
+}
+
+.square {
+height: 50px;
+width: 50px;
+background-color: red;
+margin-left: 20px;
+margin-right: 20px;
+align-self: center;
+}
+
+.circle {
+height: 50px;
+width: 50px;
+background-color: blue;
+border-radius: 50%;
+margin-left: 20px;
+margin-right: 20px;
+align-self: center;
+}
+
+.tri:hover {
+  border-bottom: 50px solid orange !important;
+}
+
+.triangle:hover {
+  align-self: flex-start;
+}
+
+.square:hover {
+  background-color: black !important;
+  align-self: flex-start;
+}
+
+.circle:hover {
+  background-color: violet !important;
+  align-self: flex-start;
+}
+
+h1{
+  text-align: center;}
